@@ -14,9 +14,13 @@ int main()
     printf("select a number\n");
     scanf("%d", &player);
     printf("computer choose %d\n", computer);
-    if (player == 0 && computer == 0)
+    if (player == computer)
     {
-        printf("it's draw!\n");
+        printf("\n---");
+        printf("🤝🤝🤝 \n");
+        printf("DRAW!!\n");
+        printf("🤝🤝🤝\n");
+        printf("\n---");
     }
     else if (player == 0 && computer == 1)
     {
@@ -26,10 +30,6 @@ int main()
     {
         printf("player wins\n");
     }
-    else if (player == 1 && computer == 1)
-    {
-        printf("its draw!!\n");
-    }
     else if (player == 1 && computer == 2)
     {
         printf("computer wins\n");
@@ -37,10 +37,6 @@ int main()
     else if (player == 2 && computer == 1)
     {
         printf("player wins\n");
-    }
-    else if (player == 2 && computer == 2)
-    {
-        printf("its draw!!\n");
     }
     else if (player == 0 && computer == 2)
     {
