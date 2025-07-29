@@ -54,5 +54,6 @@ int main()
     {
         ("something wents wrong");
     }
+    printf("thank you for playing!! ;)");
     return 0;
 }
