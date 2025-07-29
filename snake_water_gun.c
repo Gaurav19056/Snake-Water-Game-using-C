@@ -24,32 +24,50 @@ int main()
     }
     else if (player == 0 && computer == 1)
     {
-        printf("computer wins\n");
+        printf("\n---");
+        printf("😭😭😭\n");
+        printf("  OH NO! YOU LOSE!\n");
+        printf("  😭😭😭\n");
+        printf("---\n");
     }
     else if (player == 1 && computer == 0)
     {
-        printf("player wins\n");
+        printf("\n---");
+        printf("  🎉🎉🎉\n");
+        printf("you win!!\n");
     }
     else if (player == 1 && computer == 2)
     {
-        printf("computer wins\n");
+        printf("\n---");
+        printf("😭😭😭\n");
+        printf("  OH NO! YOU LOSE!\n");
+        printf("  😭😭😭\n");
+        printf("---\n");
     }
     else if (player == 2 && computer == 1)
     {
-        printf("player wins\n");
+        printf("\n---");
+        printf("  🎉🎉🎉\n");
+        printf("you win!!\n");
     }
     else if (player == 0 && computer == 2)
     {
-        printf("computer wins\n");
+        printf("\n---");
+        printf("😭😭😭\n");
+        printf("  OH NO! YOU LOSE!\n");
+        printf("  😭😭😭\n");
+        printf("---\n");
     }
     else if (player == 2 && computer == 0)
     {
-        printf("player wins\n");
+       printf("\n---");
+        printf("🎉🎉🎉\n");
+        printf("you win!!\n"); 
     }
     else
     {
         ("something wents wrong");
     }
-    printf("thank you for playing!! ;)");
+    printf("thank you for playing!!\n ;)");
     return 0;
 }
